@@ -16,7 +16,6 @@ app.use(cors())
 app.use(helmet())
 
 	app.get('/', (req, res) => {
-		return next({ messge: 'Custom error'});
 		res.send("Angela");
 	})
 
